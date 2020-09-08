@@ -436,11 +436,6 @@ body td {
 }
 @font-face {
   font-style: normal;
-  font-family: "Meslo LG";
-  src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-style: normal;
   font-family: "Fira Code";
   src: local("Fira Code"), url("../lib/FiraCode/ttf/FiraCode-Regular.ttf") format("truetype");
 }
@@ -604,8 +599,7 @@ body {
   border-radius: 5px;
   background-size: 50px 50px;
   background-repeat: no-repeat;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  background-image: url("../images/teacup_002.png");
 }
 #header #nav {
   color: #89dfeb;
@@ -648,8 +642,7 @@ body {
   margin-right: 0;
 }
 #header:hover #logo {
-  filter: none;
-  -webkit-filter: none;
+  background-image: url("../images/teacup_001.png");
 }
 @media screen and (max-width: 480px) {
   #header #title {
