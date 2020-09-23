@@ -1556,7 +1556,9 @@ code {
   color: #89dfeb;
 }
 .highlight pre {
+  display: inline-block; /* Fix no spacing on the right side when the content is too long. */
   margin: 0;
+  margin-right: 15px; /* Fix no spacing on the right side when the content is too long. */
   padding: 0;
   border: none;
   background: none;
