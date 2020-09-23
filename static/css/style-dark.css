@@ -1511,9 +1511,11 @@ code {
   margin: 1rem 0;
   padding: 10px 15px;
   border-radius: 4px;
-  background: #212326;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #52488670;
+  background: #282a36;
   font-family: "Fira Code", monospace;
-  -webkit-border-radius: 4px;
 }
 .highlight figcaption {
   margin: -5px 0 5px;
