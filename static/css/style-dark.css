@@ -1570,3 +1570,9 @@ code {
 .highlight .line {
   height: 22px;
 }
+
+figcaption {
+  text-align: center;
+  font-size: 13px;
+  color: #b2b2b2;
+}
